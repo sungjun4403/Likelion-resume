@@ -1,82 +1,92 @@
 *{
-    font-family:'Nanum Gothic Coding', monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-
-body,h1,h2{
+body, h1, h2 {
     margin: 0px;
     padding: 0px;
 }
 
-h1{
+h1 {
     font-size: 36px;
     font-weight: bold;
     font-style: italic;
 }
 
 h2{
-    font-size:20px;
-    color:rgb(53,53,53);
+    font-size: 20px;
+    color: rgb(53, 53, 53);
     font-weight: lighter;
+    margin-bottom: 16px;
     border-bottom: 1px solid #909090;
     padding-bottom: 5px;
-    
 }
 
-.mainbox{
-    width:610px;
-    border: 1px solid #909090;
-    padding: 30px;
-    margin: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 15px 1px black;
-}
-
-.name-txt{
-    font-size: 11px;
-    color: rgb(182,182,182);
+.name-txt {
+    font-size: 16px;
+    color: rgb(182, 182, 182);
     font-weight: bold;
+    font-style: italic;
 }
 
-.about-me-txt{
+.about-me-txt {
     font-size: 11px;
     line-height: 16px;
 }
 
-.title-txt{
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #909090;
+    box-shadow: 0 1px 15px 0 black;
+}
+
+.title-txt {
     font-size: 12px;
     font-weight: bold;
     color: #282828;
     float: left;
 }
-
-.year-txt{
+.year-txt {
     font-size: 12px;
     font-weight: bold;
     color: #282828;
     float: right;
 }
 
-.floar-wrap{
+.float-wrap {
     overflow: hidden;
 }
 
-footer{
+footer {
     text-align: center;
-    background-color: #121212;
-    color:#919191;
+    background-color: #1e1e1e;
+    color: #919191;
     font-size: 14px;
     padding: 15px;
 }
 
-section{
-    margin-bottom: 25px;
+section {
+    margin-bottom: 24px;
 }
 
-.title-box{
+.title-box {
     text-align: right;
-    
+    line-height: 16px;
+    padding-top: 16px;
+}
+
+.desc-txt {
+    font-size: 11px;
+}
+
+.desc-subtxt {
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
 }
 
 .desc-txt{
@@ -87,16 +97,12 @@ section{
 .desc-subtxt{
     font-size: 9px;
     color: #282828;
-    
+}
+.sns-wrap {
+    text-align: right;
 }
 
-
-.sns-wrap{
-    text-align: right;
-} 
-
-.sns-img{
+.sns-img {
     width: 15px;
     height: 15px;
 }
-
